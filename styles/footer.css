@@ -48,10 +48,18 @@
     height: 60px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .lower-footer a{
     text-decoration: none;
     margin-left: 10px;
     color: black;
+}
+
+.lower-footer>div{
+    
+    /*min content prjonto chuto hobe then overflow hobe etai flex-basis & min-width er moddhe diffrence */
+    /* flex-basis: 200px; */
+    min-width: 200px;
 }
